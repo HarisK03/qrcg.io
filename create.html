@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>qrcg.io</title>
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700">
+        <link rel="icon" href="./assets/favicon.png" type="image/png" sizes="32x32">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body onload="pngActive()">
+        <div class="brand brand-black"><a href="index.html">qrcg.io</a></div><br><nr><br>
+        <div class="container">    
+            <h1>Text For QR Code</h1>
+            <textarea id="textQR" maxlength="900"></textarea><br>
+        <div class="file-buttons">
+            <button class="black-button" id="png" onclick="pngActive()">PNG</button>
+            <button class="black-button" id="gif" onclick="gifActive()">GIF</button>
+            <button class="black-button" id="jpg" onclick="jpgActive()">JPG</button>
+        </div>
+        <br>
+        <div class="slidercontainer">
+            <input class="slider" id="qrSize" type="range" min="10" max="1000" value="200">
+            <h4>Size: <span id="qrSizeSlider" contenteditable="true"></span>px</h4>
+        </div>
+        <script>
+            $("#qrSizeSlider").keypress(function(e) {
+                if (isNaN(String.fromCharCode(e.which)) || e.which === 13) e.preventDefault();
+            });
+        </script>
+        <img id="qrCode" src="" alt="" title="" /><br>
+            <button class="black-button" onclick="createQR()">Make QR Code</button><br>
+            </div>
+        <script src="./js/create.js"></script>
+    </body>
+</html>

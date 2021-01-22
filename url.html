@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>qrcg.io</title>
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"> 
+        <link rel="icon" href="./assets/favicon.png" type="image/png" sizes="32x32">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="brand brand-black"><a href="index.html">qrcg.io</a></div><br>
+        <div class="container">
+            <h1>QR Code URL</h1>
+            <textarea id="urlInput" maxlength="900"></textarea>
+            <h1>Output</h1>
+            <textarea id="urlOutput" readonly></textarea><br>
+            <button class="black-button" onclick="readUrl()">Read Code</button>
+        </div>
+        <script src="./js/read.js"></script>
+    </body>
+</html>
