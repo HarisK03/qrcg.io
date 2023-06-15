@@ -10,7 +10,7 @@ Date Created: January 2021
 
 ## About The Project ##
 
-This application is designed for users to read and create QR codes. You are able to view the final project [here](https://qrcgio.hariskamal.repl.co/ "qrcg.io").
+This application is designed for users to read and create QR codes. You are able to view the final project [here](https://harisk03.github.io/qrcg.io/ "qrcg.io").
 
 ![alt text](https://github.com/HarisK03/qrcg.io/blob/414b89ae3a016018331cb83e8d758992280977b2/demo.png)
 
