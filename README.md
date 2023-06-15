@@ -12,7 +12,7 @@ Date Created: January 2021
 
 This application is designed for users to read and create QR codes. You are able to view the final project [here](https://qrcgio.hariskamal.repl.co/ "qrcg.io").
 
-![alt text](https://i.imgur.com/43516kP.png)
+![alt text](https://github.com/HarisK03/qrcg.io/blob/414b89ae3a016018331cb83e8d758992280977b2/demo.png)
 
 ## Read QR Code ##
 QR codes can be read by 3 methods:
